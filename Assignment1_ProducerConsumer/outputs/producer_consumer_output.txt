@@ -1,0 +1,514 @@
+=== PRODUCER-CONSUMER PATTERN OUTPUT ===
+
+Source data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+Queue capacity: 10
+
+Producer: Starting to produce items
+Consumer: Starting to consume items
+Producer: Adding 1 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 1 (Queue size: 1)
+Consumer: Got 1 from queue
+Consumer: Stored 1 in destination (Total: 1)
+Producer: Adding 2 to queue
+Producer: Successfully added 2 (Queue size: 1)
+Consumer: Trying to get item from queue
+Consumer: Got 2 from queue
+Consumer: Stored 2 in destination (Total: 2)
+Producer: Adding 3 to queue
+Producer: Successfully added 3 (Queue size: 1)
+Producer: Adding 4 to queue
+Producer: Successfully added 4 (Queue size: 2)
+Consumer: Trying to get item from queue
+Consumer: Got 3 from queue
+Consumer: Stored 3 in destination (Total: 3)
+Producer: Adding 5 to queue
+Producer: Successfully added 5 (Queue size: 2)
+Producer: Adding 6 to queue
+Producer: Successfully added 6 (Queue size: 3)
+Consumer: Trying to get item from queue
+Consumer: Got 4 from queue
+Consumer: Stored 4 in destination (Total: 4)
+Producer: Adding 7 to queue
+Producer: Successfully added 7 (Queue size: 3)
+Producer: Adding 8 to queue
+Producer: Successfully added 8 (Queue size: 4)
+Consumer: Trying to get item from queue
+Consumer: Got 5 from queue
+Consumer: Stored 5 in destination (Total: 5)
+Producer: Adding 9 to queue
+Producer: Successfully added 9 (Queue size: 4)
+Producer: Adding 10 to queue
+Producer: Successfully added 10 (Queue size: 5)
+Consumer: Trying to get item from queue
+Consumer: Got 6 from queue
+Consumer: Stored 6 in destination (Total: 6)
+Producer: Adding 11 to queue
+Producer: Successfully added 11 (Queue size: 5)
+Producer: Adding 12 to queue
+Producer: Successfully added 12 (Queue size: 6)
+Consumer: Trying to get item from queue
+Consumer: Got 7 from queue
+Consumer: Stored 7 in destination (Total: 7)
+Producer: Adding 13 to queue
+Producer: Successfully added 13 (Queue size: 6)
+Producer: Adding 14 to queue
+Producer: Successfully added 14 (Queue size: 7)
+Consumer: Trying to get item from queue
+Consumer: Got 8 from queue
+Consumer: Stored 8 in destination (Total: 8)
+Producer: Adding 15 to queue
+Producer: Successfully added 15 (Queue size: 7)
+Producer: Adding 16 to queue
+Producer: Successfully added 16 (Queue size: 8)
+Consumer: Trying to get item from queue
+Consumer: Got 9 from queue
+Consumer: Stored 9 in destination (Total: 9)
+Producer: Adding 17 to queue
+Producer: Successfully added 17 (Queue size: 8)
+Producer: Adding 18 to queue
+Producer: Successfully added 18 (Queue size: 9)
+Consumer: Trying to get item from queue
+Consumer: Got 10 from queue
+Consumer: Stored 10 in destination (Total: 10)
+Producer: Adding 19 to queue
+Producer: Successfully added 19 (Queue size: 9)
+Producer: Adding 20 to queue
+Producer: Successfully added 20 (Queue size: 10)
+Consumer: Trying to get item from queue
+Consumer: Got 11 from queue
+Consumer: Stored 11 in destination (Total: 11)
+Producer: Adding 21 to queue
+Producer: Successfully added 21 (Queue size: 10)
+Producer: Adding 22 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 12 from queue
+Producer: Successfully added 22 (Queue size: 10)
+Consumer: Stored 12 in destination (Total: 12)
+Producer: Adding 23 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 13 from queue
+Producer: Successfully added 23 (Queue size: 10)
+Consumer: Stored 13 in destination (Total: 13)
+Producer: Adding 24 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 14 from queue
+Producer: Successfully added 24 (Queue size: 10)
+Consumer: Stored 14 in destination (Total: 14)
+Producer: Adding 25 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 15 from queue
+Producer: Successfully added 25 (Queue size: 10)
+Consumer: Stored 15 in destination (Total: 15)
+Producer: Adding 26 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 26 (Queue size: 10)
+Consumer: Got 16 from queue
+Consumer: Stored 16 in destination (Total: 16)
+Producer: Adding 27 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 17 from queue
+Producer: Successfully added 27 (Queue size: 10)
+Consumer: Stored 17 in destination (Total: 17)
+Producer: Adding 28 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 18 from queue
+Producer: Successfully added 28 (Queue size: 10)
+Consumer: Stored 18 in destination (Total: 18)
+Producer: Adding 29 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 29 (Queue size: 10)
+Consumer: Got 19 from queue
+Consumer: Stored 19 in destination (Total: 19)
+Producer: Adding 30 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 20 from queue
+Producer: Successfully added 30 (Queue size: 10)
+Consumer: Stored 20 in destination (Total: 20)
+Producer: Adding 31 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 21 from queue
+Producer: Successfully added 31 (Queue size: 10)
+Consumer: Stored 21 in destination (Total: 21)
+Producer: Adding 32 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 22 from queue
+Producer: Successfully added 32 (Queue size: 10)
+Consumer: Stored 22 in destination (Total: 22)
+Producer: Adding 33 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 23 from queue
+Producer: Successfully added 33 (Queue size: 10)
+Consumer: Stored 23 in destination (Total: 23)
+Producer: Adding 34 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 34 (Queue size: 10)
+Consumer: Got 24 from queue
+Consumer: Stored 24 in destination (Total: 24)
+Producer: Adding 35 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 35 (Queue size: 10)
+Consumer: Got 25 from queue
+Consumer: Stored 25 in destination (Total: 25)
+Producer: Adding 36 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 26 from queue
+Producer: Successfully added 36 (Queue size: 10)
+Consumer: Stored 26 in destination (Total: 26)
+Producer: Adding 37 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 27 from queue
+Producer: Successfully added 37 (Queue size: 10)
+Consumer: Stored 27 in destination (Total: 27)
+Producer: Adding 38 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 28 from queue
+Producer: Successfully added 38 (Queue size: 10)
+Consumer: Stored 28 in destination (Total: 28)
+Producer: Adding 39 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 39 (Queue size: 10)
+Consumer: Got 29 from queue
+Consumer: Stored 29 in destination (Total: 29)
+Producer: Adding 40 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 30 from queue
+Producer: Successfully added 40 (Queue size: 10)
+Consumer: Stored 30 in destination (Total: 30)
+Producer: Adding 41 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 31 from queue
+Producer: Successfully added 41 (Queue size: 10)
+Consumer: Stored 31 in destination (Total: 31)
+Producer: Adding 42 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 32 from queue
+Producer: Successfully added 42 (Queue size: 10)
+Consumer: Stored 32 in destination (Total: 32)
+Producer: Adding 43 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 43 (Queue size: 10)
+Consumer: Got 33 from queue
+Consumer: Stored 33 in destination (Total: 33)
+Producer: Adding 44 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 34 from queue
+Producer: Successfully added 44 (Queue size: 10)
+Consumer: Stored 34 in destination (Total: 34)
+Producer: Adding 45 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 35 from queue
+Producer: Successfully added 45 (Queue size: 10)
+Consumer: Stored 35 in destination (Total: 35)
+Producer: Adding 46 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 36 from queue
+Producer: Successfully added 46 (Queue size: 10)
+Consumer: Stored 36 in destination (Total: 36)
+Producer: Adding 47 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 37 from queue
+Producer: Successfully added 47 (Queue size: 10)
+Consumer: Stored 37 in destination (Total: 37)
+Producer: Adding 48 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 48 (Queue size: 10)
+Consumer: Got 38 from queue
+Consumer: Stored 38 in destination (Total: 38)
+Producer: Adding 49 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 39 from queue
+Producer: Successfully added 49 (Queue size: 10)
+Consumer: Stored 39 in destination (Total: 39)
+Producer: Adding 50 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 50 (Queue size: 10)
+Consumer: Got 40 from queue
+Consumer: Stored 40 in destination (Total: 40)
+Producer: Adding 51 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 41 from queue
+Producer: Successfully added 51 (Queue size: 10)
+Consumer: Stored 41 in destination (Total: 41)
+Producer: Adding 52 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 42 from queue
+Producer: Successfully added 52 (Queue size: 10)
+Consumer: Stored 42 in destination (Total: 42)
+Producer: Adding 53 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 43 from queue
+Producer: Successfully added 53 (Queue size: 10)
+Consumer: Stored 43 in destination (Total: 43)
+Producer: Adding 54 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 44 from queue
+Producer: Successfully added 54 (Queue size: 10)
+Consumer: Stored 44 in destination (Total: 44)
+Producer: Adding 55 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 55 (Queue size: 10)
+Consumer: Got 45 from queue
+Consumer: Stored 45 in destination (Total: 45)
+Producer: Adding 56 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 46 from queue
+Producer: Successfully added 56 (Queue size: 10)
+Consumer: Stored 46 in destination (Total: 46)
+Producer: Adding 57 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 47 from queue
+Producer: Successfully added 57 (Queue size: 10)
+Consumer: Stored 47 in destination (Total: 47)
+Producer: Adding 58 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 48 from queue
+Producer: Successfully added 58 (Queue size: 10)
+Consumer: Stored 48 in destination (Total: 48)
+Producer: Adding 59 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 49 from queue
+Producer: Successfully added 59 (Queue size: 10)
+Consumer: Stored 49 in destination (Total: 49)
+Producer: Adding 60 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 50 from queue
+Producer: Successfully added 60 (Queue size: 10)
+Consumer: Stored 50 in destination (Total: 50)
+Producer: Adding 61 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 51 from queue
+Producer: Successfully added 61 (Queue size: 10)
+Consumer: Stored 51 in destination (Total: 51)
+Producer: Adding 62 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 52 from queue
+Producer: Successfully added 62 (Queue size: 10)
+Consumer: Stored 52 in destination (Total: 52)
+Producer: Adding 63 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 53 from queue
+Producer: Successfully added 63 (Queue size: 10)
+Consumer: Stored 53 in destination (Total: 53)
+Producer: Adding 64 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 54 from queue
+Producer: Successfully added 64 (Queue size: 10)
+Consumer: Stored 54 in destination (Total: 54)
+Producer: Adding 65 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 55 from queue
+Producer: Successfully added 65 (Queue size: 10)
+Consumer: Stored 55 in destination (Total: 55)
+Producer: Adding 66 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 56 from queue
+Consumer: Stored 56 in destination (Total: 56)
+Producer: Successfully added 66 (Queue size: 10)
+Producer: Adding 67 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 57 from queue
+Producer: Successfully added 67 (Queue size: 10)
+Consumer: Stored 57 in destination (Total: 57)
+Producer: Adding 68 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 68 (Queue size: 10)
+Consumer: Got 58 from queue
+Consumer: Stored 58 in destination (Total: 58)
+Producer: Adding 69 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 59 from queue
+Producer: Successfully added 69 (Queue size: 10)
+Consumer: Stored 59 in destination (Total: 59)
+Producer: Adding 70 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 60 from queue
+Producer: Successfully added 70 (Queue size: 10)
+Consumer: Stored 60 in destination (Total: 60)
+Producer: Adding 71 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 61 from queue
+Producer: Successfully added 71 (Queue size: 10)
+Consumer: Stored 61 in destination (Total: 61)
+Producer: Adding 72 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 62 from queue
+Producer: Successfully added 72 (Queue size: 10)
+Consumer: Stored 62 in destination (Total: 62)
+Producer: Adding 73 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 63 from queue
+Producer: Successfully added 73 (Queue size: 10)
+Consumer: Stored 63 in destination (Total: 63)
+Producer: Adding 74 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 64 from queue
+Producer: Successfully added 74 (Queue size: 10)
+Consumer: Stored 64 in destination (Total: 64)
+Producer: Adding 75 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 65 from queue
+Producer: Successfully added 75 (Queue size: 10)
+Consumer: Stored 65 in destination (Total: 65)
+Producer: Adding 76 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 66 from queue
+Producer: Successfully added 76 (Queue size: 10)
+Consumer: Stored 66 in destination (Total: 66)
+Producer: Adding 77 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 77 (Queue size: 10)
+Consumer: Got 67 from queue
+Consumer: Stored 67 in destination (Total: 67)
+Producer: Adding 78 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 78 (Queue size: 10)
+Consumer: Got 68 from queue
+Consumer: Stored 68 in destination (Total: 68)
+Producer: Adding 79 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 69 from queue
+Producer: Successfully added 79 (Queue size: 10)
+Consumer: Stored 69 in destination (Total: 69)
+Producer: Adding 80 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 70 from queue
+Producer: Successfully added 80 (Queue size: 10)
+Consumer: Stored 70 in destination (Total: 70)
+Producer: Adding 81 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 71 from queue
+Producer: Successfully added 81 (Queue size: 10)
+Consumer: Stored 71 in destination (Total: 71)
+Producer: Adding 82 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 72 from queue
+Producer: Successfully added 82 (Queue size: 10)
+Consumer: Stored 72 in destination (Total: 72)
+Producer: Adding 83 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 73 from queue
+Producer: Successfully added 83 (Queue size: 10)
+Consumer: Stored 73 in destination (Total: 73)
+Producer: Adding 84 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 74 from queue
+Producer: Successfully added 84 (Queue size: 10)
+Consumer: Stored 74 in destination (Total: 74)
+Producer: Adding 85 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 75 from queue
+Producer: Successfully added 85 (Queue size: 10)
+Consumer: Stored 75 in destination (Total: 75)
+Producer: Adding 86 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 76 from queue
+Producer: Successfully added 86 (Queue size: 10)
+Consumer: Stored 76 in destination (Total: 76)
+Producer: Adding 87 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 77 from queue
+Producer: Successfully added 87 (Queue size: 10)
+Consumer: Stored 77 in destination (Total: 77)
+Producer: Adding 88 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 78 from queue
+Producer: Successfully added 88 (Queue size: 10)
+Consumer: Stored 78 in destination (Total: 78)
+Producer: Adding 89 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 79 from queue
+Producer: Successfully added 89 (Queue size: 10)
+Consumer: Stored 79 in destination (Total: 79)
+Producer: Adding 90 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 80 from queue
+Producer: Successfully added 90 (Queue size: 10)
+Consumer: Stored 80 in destination (Total: 80)
+Producer: Adding 91 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 81 from queue
+Producer: Successfully added 91 (Queue size: 10)
+Consumer: Stored 81 in destination (Total: 81)
+Producer: Adding 92 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 82 from queue
+Consumer: Stored 82 in destination (Total: 82)
+Producer: Successfully added 92 (Queue size: 10)
+Producer: Adding 93 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 83 from queue
+Consumer: Stored 83 in destination (Total: 83)
+Producer: Successfully added 93 (Queue size: 10)
+Producer: Adding 94 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 84 from queue
+Producer: Successfully added 94 (Queue size: 10)
+Consumer: Stored 84 in destination (Total: 84)
+Producer: Adding 95 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 85 from queue
+Producer: Successfully added 95 (Queue size: 10)
+Consumer: Stored 85 in destination (Total: 85)
+Producer: Adding 96 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 86 from queue
+Producer: Successfully added 96 (Queue size: 10)
+Consumer: Stored 86 in destination (Total: 86)
+Producer: Adding 97 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 87 from queue
+Producer: Successfully added 97 (Queue size: 10)
+Consumer: Stored 87 in destination (Total: 87)
+Producer: Adding 98 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 88 from queue
+Producer: Successfully added 98 (Queue size: 10)
+Consumer: Stored 88 in destination (Total: 88)
+Producer: Adding 99 to queue
+Consumer: Trying to get item from queue
+Producer: Successfully added 99 (Queue size: 10)
+Consumer: Got 89 from queue
+Consumer: Stored 89 in destination (Total: 89)
+Producer: Adding 100 to queue
+Consumer: Trying to get item from queue
+Consumer: Got 90 from queue
+Producer: Successfully added 100 (Queue size: 10)
+Consumer: Stored 90 in destination (Total: 90)
+Producer: Finished producing all items
+Consumer: Trying to get item from queue
+Consumer: Got 91 from queue
+Consumer: Stored 91 in destination (Total: 91)
+Consumer: Trying to get item from queue
+Consumer: Got 92 from queue
+Consumer: Stored 92 in destination (Total: 92)
+Consumer: Trying to get item from queue
+Consumer: Got 93 from queue
+Consumer: Stored 93 in destination (Total: 93)
+Consumer: Trying to get item from queue
+Consumer: Got 94 from queue
+Consumer: Stored 94 in destination (Total: 94)
+Consumer: Trying to get item from queue
+Consumer: Got 95 from queue
+Consumer: Stored 95 in destination (Total: 95)
+Consumer: Trying to get item from queue
+Consumer: Got 96 from queue
+Consumer: Stored 96 in destination (Total: 96)
+Consumer: Trying to get item from queue
+Consumer: Got 97 from queue
+Consumer: Stored 97 in destination (Total: 97)
+Consumer: Trying to get item from queue
+Consumer: Got 98 from queue
+Consumer: Stored 98 in destination (Total: 98)
+Consumer: Trying to get item from queue
+Consumer: Got 99 from queue
+Consumer: Stored 99 in destination (Total: 99)
+Consumer: Trying to get item from queue
+Consumer: Got 100 from queue
+Consumer: Stored 100 in destination (Total: 100)
+Consumer: Finished consuming all items
+
+=== COMPLETE ===
+Final destination: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+Items processed: 100
+Success: True

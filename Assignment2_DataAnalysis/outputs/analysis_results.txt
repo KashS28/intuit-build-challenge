@@ -1,0 +1,93 @@
+======================================================================
+SALES DATA ANALYSIS REPORT
+Total Records: 8,399
+======================================================================
+======================================================================
+ANALYZING 8,399 SALES RECORDS
+======================================================================
+
+=== ANALYSIS 1: Total Sales by Region ===
+West: $3,597,549.28
+Ontario: $3,063,212.48
+Prarie: $2,837,304.60
+Atlantic: $2,014,248.20
+Quebec: $1,510,195.08
+Yukon: $975,867.37
+Northwest Territories: $800,847.33
+Nunavut: $116,376.48
+
+=== ANALYSIS 2: Top 10 Products ===
+#1: Technology - $5,984,248.18
+#2: Furniture - $5,178,590.54
+#3: Office Supplies - $3,752,762.10
+
+=== ANALYSIS 3: Average Order Value ===
+Average Order Value: $1,775.88
+
+=== ANALYSIS 4: Sales by Customer Segment ===
+Consumer:
+  Total Sales: $3,063,611.08
+  Order Count: 1649
+  Average: $1,857.86
+Corporate:
+  Total Sales: $5,498,904.88
+  Order Count: 3076
+  Average: $1,787.68
+Home Office:
+  Total Sales: $3,564,763.87
+  Order Count: 2032
+  Average: $1,754.31
+Small Business:
+  Total Sales: $2,788,320.99
+  Order Count: 1642
+  Average: $1,698.12
+
+=== ANALYSIS 5: Top 10 Provinces ===
+#1: Ontario - $346,868.54
+#2: Saskachewan - $184,732.96
+#3: Alberta - $151,946.48
+#4: British Columbia - $145,062.13
+#5: Quebec - $140,426.65
+#6: Manitoba - $136,427.16
+#7: New Brunswick - $115,351.94
+#8: Northwest Territories - $100,653.08
+#9: Nova Scotia - $85,361.87
+#10: Yukon - $73,849.21
+
+=== ANALYSIS 6: Monthly Sales Trend ===
+2012-01: $340,626.51
+2012-02: $276,132.50
+2012-03: $348,208.33
+2012-04: $268,024.97
+2012-05: $384,588.06
+2012-06: $276,580.94
+2012-07: $242,809.70
+2012-08: $302,745.12
+2012-09: $318,271.57
+2012-10: $351,246.73
+2012-11: $256,020.10
+2012-12: $354,709.34
+
+======================================================================
+Analysis complete!
+======================================================================
+
+=== ANALYSIS 3: Average Order Value ===
+
+=== ANALYSIS 4: Sales by Customer Segment ===
+
+=== ANALYSIS 2: Top 10 Products ===
+
+=== ANALYSIS 5: Top 10 Provinces ===
+
+=== ANALYSIS 1: Total Sales by Region ===
+
+=== ANALYSIS 3: Average Order Value ===
+
+=== ANALYSIS 4: Sales by Customer Segment ===
+
+=== ANALYSIS 2: Top 10 Products ===
+
+=== ANALYSIS 5: Top 10 Provinces ===
+
+=== ANALYSIS 1: Total Sales by Region ===
