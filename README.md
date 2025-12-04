@@ -357,8 +357,7 @@ CSV File → map(create SaleRecord) → filter(by criteria) → reduce(aggregate
 - File size manageable for in-memory processing
 - Single-threaded analysis (no concurrent access concerns)
 - Type conversions: string → int/float as specified in schema
-
----
+  
 
 ### Analysis Methods
 
